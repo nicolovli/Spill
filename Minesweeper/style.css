@@ -1,0 +1,17 @@
+.firkant:hover {
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+}
+
+.aktivert {
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    pointer-events: none;
+}
+
+#spillBrett {
+    width: 600px;
+    height: 600px;
+}
+
+.firkant {
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}

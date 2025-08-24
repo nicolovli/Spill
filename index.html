@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mine Spill</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      h1 {
+        margin: 2rem 0;
+        text-align: center;
+        font-size: 2rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .games {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1.5rem;
+        width: 90%;
+        max-width: 800px;
+        margin-bottom: 3rem;
+      }
+
+      .game-link {
+        display: block;
+        padding: 1rem 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: transform 0.2s, background 0.2s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .game-link:hover {
+        background: rgba(255, 255, 255, 0.35);
+        transform: translateY(-5px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Her er en samling av spill jeg har laget</h1>
+    <div class="games">
+      <a class="game-link" href="2048/index.html" target="_blank">2048</a>
+      <a class="game-link" href="Minesweeper/index.html" target="_blank">Minesweeper</a>
+      <a class="game-link" href="Snake/index.html" target="_blank">Snake</a>
+      <a class="game-link" href="Sjakk/index.html" target="_blank">Sjakk</a>
+      <a class="game-link" href="Bouncing ball/index.html" target="_blank">Bouncing Ball</a>
+    </div>
+  </body>
+</html>

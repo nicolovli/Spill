@@ -1,0 +1,52 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
+}
+
+#linjer {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#level {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+#nextShape {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#score {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+#statistics {
+  grid-column: 1;
+  grid-row: 3 / span 4;
+}
+
+#spillBrett {
+  grid-column: 2;
+  grid-row: 2 / span 4;
+  display: grid;
+  grid-template-columns: repeat(10, 28px);
+  grid-template-rows: repeat(20, 28px);
+  margin: 0 auto;
+  border: 5px solid #4bc4f0;
+}
+
+.firkant {
+  width: 28px;
+  height: 28px;
+  /* border: 1px solid black; */
+}
+
+.figurFirkant {
+  width: 28px;
+  height: 28px;
+}

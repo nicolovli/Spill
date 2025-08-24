@@ -1,0 +1,52 @@
+body {
+    background-color: #181716;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#spillBrett {
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    margin-top: 12vh;
+    position: relative;
+}
+
+#bakke {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.gress {
+    max-width: 5%;
+    max-height: auto;
+    float: left;
+    margin: 0;
+}
+
+#plattform1 {
+    position: absolute;
+    bottom: 150px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+#plattform2 {
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.bricks {
+    max-width: 5%;
+    max-height: auto;
+    float: left;
+}

@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 181716 */
+/* rgba(27,27,27,255) */
+
+#spillBrett {
+    background-color: rgba(52,52,52,255);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 90px;
+    border: 1px solid;
+    position: relative;
+}
+
+.firkant {
+    height: 25px;
+    width: 25px;
+    float: left;
+    background-color: rgba(27,27,27,255);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.slange {
+    height: 23px;
+    width: 23px;
+    background-color: rgba(127,226,98,255);
+    position: absolute;
+}
+
+.mat {
+    height: 23px;
+    width: 23px;
+    background-color: rgba(182,68,20,255);
+    position: absolute;
+}
+
+#score {
+    color: white;
+    text-align: center;
+    top: 640px;
+    position: relative;
+    font-size: 25px;
+}
+
+#infoTekst {
+    color: grey;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    top: 80px;
+    font-size: 18px;
+}
+
+.kropp {
+    height: 23px;
+    width: 23px;
+    background-color: rgba(127,226,98,255);
+    position: absolute;
+}

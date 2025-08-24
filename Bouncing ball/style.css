@@ -1,0 +1,54 @@
+body {
+    background-color: #181716;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#spillBrett {
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 90px;
+    border: 1px solid;
+    position: relative;
+}
+
+#targetBrett {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+#plattform {
+    background-color: aqua;
+    width: 50px;
+    height: 10px;
+    top: 590px;
+    position: absolute;
+}
+
+#ball {
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    left: 445px;
+    top: 580px;
+    position: absolute;
+}
+
+.target {
+    background-color: blueviolet;
+    width: 90px;
+    margin: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
